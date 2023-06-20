@@ -1,0 +1,29 @@
+{
+    "name": "@liulib/eslint-ts",
+    "version": "0.0.1",
+    "publishConfig": {
+        "access": "public"
+    },
+    "description": "Shared eslint ts config",
+    "author": "Liulib <liulibzzz@gmail.com> (http://github.com/liulib)",
+    "license": "MIT",
+    "repository": {
+        "url": "https://github.com/liulib/configs",
+        "type": "git",
+        "directory": "packages/eslint-ts"
+    },
+    "main": "index.js",
+    "peerDependencies": {
+        "eslint": "^8.43.0"
+    },
+    "dependencies": {
+        "@typescript-eslint/eslint-plugin": "^5.60.0",
+        "@typescript-eslint/parser": "^5.60.0",
+        "eslint-config-prettier": "^8.8.0",
+        "eslint-plugin-prettier": "^4.2.1",
+        "jsonc-eslint-parser": "^2.3.0"
+    },
+    "devDependencies": {
+        "@types/eslint": "^8.40.2"
+    }
+}
